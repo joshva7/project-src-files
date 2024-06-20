@@ -1,0 +1,31 @@
+#hdv,ul{
+    /* list-style: none; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    color: white;
+    background-color: black;
+    gap: 10px;
+    position: sticky;
+    top: 0px; 
+  }
+li:hover{
+  color: aqua;
+}    
+*{
+  margin: 0%;
+  padding: 0%;
+}
+#sime{
+    width: 50px;
+    height: 70px;
+}
+.cars{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+    flex-grow: 3;
+    margin: 5%;
+}
