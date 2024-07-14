@@ -1,2 +1,0 @@
-# joshva
-my website devlopment
