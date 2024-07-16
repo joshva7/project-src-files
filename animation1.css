@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navegation bar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+nav{
+    padding: 20px 30px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: par 2s linear;
+}
+@keyframes par {
+    0%{
+        transform: translateY(-200px);
+    }
+}
+nav img{
+    height: 50px;
+    width: 50px;
+    animation: car 2s linear;
+}
+@keyframes car {
+    0%{
+        transform: translateX(-200px);
+    }
+}
+.contenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: h1 2.5s ease-in-out;
+    scroll-behavior: smooth;
+}
+.contenter h1{
+    font-family: sans-serif;
+    font-style: 600;
+    font-size: 8rem;
+}
+@keyframes h1 {
+    0%{
+        transform: translateY(-150px);
+        opacity: -5;
+    }
+}
+
+.contenter :nth-child(2){
+    font-family: sans-serif;
+    font-weight: 300;
+    padding-bottom: 3rem;
+}
+span{
+    font-size: small;
+    font-weight: 900;
+}
+a{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: aqua;
+}
+.main-contenter{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 4rem;
+}
+.bg-box{
+    height: 100%vh;
+    width: 100%vw;
+}
+img{
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.one-1{
+    font-family: sans-serif;
+    color: aliceblue;
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    z-index: 5;
+    top: 45rem;
+    padding: 5rem;
+    animation: one 2s ease-in-out;
+}
+@keyframes one {
+    0%{
+        opacity: -5;
+        transform: translateY(50px);
+       transition: all;
+
+      }
+}

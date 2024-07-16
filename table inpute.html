@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <title>
+        student information
+        </title>
+    </head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2rem;
+            background-color: firebrick;
+        }
+       .boxx{
+        display: inline-block;
+        background-color: white;
+        border: black 2px solid; 
+        width: 200px;
+        height: 250px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+        margin-left: 35%
+    }
+    .inputbox{
+        background-color: transparent;
+        color: black;
+        border: none;
+        border-bottom: black solid 1px;
+    }
+    button{
+        background-color: transparent;
+        border: none;
+        overflow: hidden;
+        width: 100%;
+    }
+    .inputbox input:focus,::placeholder{
+        border: none;
+        background: transparent;
+        overflow: hidden;
+        color: black;
+        background-color: transparent;
+    }
+    h1{
+        text-align: center;
+    }
+    </style>
+
+    <body>
+        <h1>Student information</h1>
+        <table class="boxx" style="border: solid 2px; width: 30%;">
+            <form class="box2">
+            <label for="Name">
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" placeholder="Name" id="input-text" class="inputbox"></td>
+                </tr>
+            </label>
+            <label for="Age">
+                <tr>
+                    <td>Age:</td>
+                    <td><input type="number"placeholder="Age" id="input-age" class="inputbox"></td>
+                </tr>
+                </label>
+                <label for="Gender">
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" name="male" id="input-male">Male <input type="radio" name="male" id="input-female">Female</td>
+                </tr>
+                </label>
+                <label for="depatment">
+                <tr>
+                    <td>Depatment</td>
+                    <td><select aria-placeholder="depatment" id="input-option">
+                        <option>javascript</option>
+                        <option>paythan</option>
+                        <option>Java</option>
+                        <option>c#</option>
+                    </select></td>
+                </tr>
+                </label>
+                <label for="email">
+                    <tr>
+                        <td>Email</td>
+                       <td><input type="email" placeholder="E-mail" class="inputbox" id="input-email"></td>
+                    </tr>
+                </label>
+                <label for="Savebtn">
+                <tr>
+                    <td colspan="3"><button class="addbtn">Save</button></td>
+                </tr>
+                </label>
+            </form>
+            <div class="box3">
+                <table>
+                    <div>
+                         <tr>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                        </tr>
+                    </div>
+                <div>
+                    <tr>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                </div>
+                <div>
+                    <tr>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr> 
+                </div>
+                <div>
+                    <tr>
+                        <td><p></p></td>
+                        <td><p></p></td>
+                    </tr>
+                </div>
+                </table>
+            </div>
+        </table>
+    </body>
+    <script>
+           var add=document.querySelector(".addbtn")
+           var text=document.getElementById("input-text")
+           var age=document.getElementById("input-age")
+           var gender=document.getElementById("input-gender")
+           var email=document.getElementById("input-email")
+           var box3=document.querySelector(".box3")
+           add.addEventListener("click",function(){
+            event.preventDefault()
+            var div=document.createElement("div")
+            div.setAttribute("class","boxx")
+            div.innerHTML=`<p>${"input-text"}</p>
+                           <p>${"input-age"}</p>
+                           <p>${"input-gender"}</p>
+                           <p>${"input-gender"}</p>
+                           <p>${"input-email"}</p>`
+                           box3.append(div)
+                        })
+    </script>
+</html>
