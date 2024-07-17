@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swich calluclater</title>
+</head>
+<style>
+    body{
+    background-color: rgb(218, 218, 18);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 5rem;
+     font-family: sans-serif;
+}
+.contenter{
+    height: 25rem;
+    width: 25rem;
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px 30px 20px 30px;
+    gap: 10px;
+}
+.input{
+    padding-bottom: 10px;
+}
+#Result{
+    padding-top: 20px;
+}
+</style>
+<body>
+ <form>
+    <div class="contenter" id="perater">
+        <h1>swich calculater</h1>
+        <label>Input1</label>
+        <input type="text" id="input1">
+        <label>Input2</label>
+        <input type="text" id="input2">
+        <input type="radio" name="operator" value="+" checked>+
+        <input type="radio" name="operator" value="-">-
+        <input type="radio" name="operator" value="*">*
+        <input type="radio" name="operator" value="/">/
+        <button id="btn">ans</button>
+        <div id="result"></div>
+    </div>
+ </form>   
+</body>
+<script>
+    let btn=document.getElementById("btn")
+    let result=document.getElementById("result")
+    btn.addEventListener("click",function(event){
+        let input1= parseFloat(document.getElementById("input1").value);
+        let input2= parseFloat(document.getElementById("input2").value);
+        let operater=document.querySelector('input[name="operator"]:checked').value;
+        let output; 
+        event.preventDefault();
+        switch(operater){
+        case '+' : 
+            output=input1+input2;
+        break; 
+        case '-' : 
+            output=input1-input2;
+        break;
+        case '*':
+          output=input1*input2;
+            break;
+        case "/":
+        if (input2 === 0) {
+                output = "Cannot divide by zero";
+            } else {
+                output = input1 / input2;
+            }
+            break;
+        default: 
+                "invalited value"
+    }
+    result.textContent ="result" +output;
+        console.log(output);
+    });
+</script>
+</html>
+

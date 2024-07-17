@@ -506,3 +506,50 @@ const dupwords=words.map(function (current_words,index,array){
 console.table(dupwords);
 */
   
+// let num=1;
+
+// for(num=1;num<=10;num++){
+//     console.log(num)
+// }
+// let i=1;
+// while(i<=10){
+//     console.log(i);
+//     i++
+// }
+// while loop
+// let a=1;
+// while(a<=5){
+//     console.log(a);
+//     a++;
+// }
+
+// let train=[1,2,3,4,5,6,7,8,9,10];
+// train.forEach((elemetns)=>{
+//      console.table(elemetns);
+// })
+
+//for in loop and for of loop
+
+// let biodata={
+//      Name:"joshva",
+//      Age:17,
+//      Number:6383944895
+// };
+// for(elments in biodata){
+//     console.log(elments,biodata[elments]);
+// }
+// let color=["red","black","blue"];
+// for(elet of color){
+//     console.log(elet);
+// }
+
+//let str="        hello bro how are you       ";
+// console.log(str.substring(5,22))
+// console.log(str.split(""))
+// console.log(str.replace("hello","joshva"));
+// console.log(str.trim(""))
+
+//js interation;
+//alert()
+//prompt()
+//confirm()
