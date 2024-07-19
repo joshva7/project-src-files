@@ -553,3 +553,199 @@ console.table(dupwords);
 //alert()
 //prompt()
 //confirm()
+
+//Array map
+//let num=[5,6,8,14,32];
+
+// let numbermap=num.map((num)=>{
+//    return num +10
+// })
+// console.log(numbermap);
+
+// array filter
+
+// let num2=[1,2,3,4,5,6,7,8,9,10];
+// let numberofprodate=num.filter((num)=>{
+//      return num% 2 == 0;   
+// });
+// console.log(numberofprodate);
+
+//array ruddes
+// function reducebox(result,currentvalu){
+//     return result+currentvalu;
+// }
+// let total1= num2.reduce(reducebox);
+// console.log(total1);
+
+//array reduceright
+// let num1=[[1,2],[3,4],[5,6]];
+// function reducebox(result,current){
+//     return result.concat(current);
+// }
+// let total= num1.reduceRight(reducebox);
+// console.log(total);
+// let box=num1.reduce(reducebox)
+// console.log(box);
+
+//array push
+
+// let candine = ['joshva','sabari'];
+// console.log(candine);
+// candine.push('aditya')
+// console.log(candine)
+// candine.push('hiruthik')
+// console.log(candine)
+// let length=candine.length
+// console.log(length)
+
+// array pop
+
+// let candine =['joshva','sabari','hirutik','aditya'];
+// let removeperson=candine.pop()
+// let removeperson1=candine.pop()
+// console.log(removeperson)
+// console.log(removeperson1)
+// console.log(candine)
+
+//array unshift
+
+// let candine =['joshva','sabari','hirutik','aditya','melan'];  
+// candine.unshift('kumar','jos','sidhu')
+// console.log(candine);
+
+// array shift
+// let person=candine.shift()
+// candine.shift()
+// candine.shift()
+// console.log(person)
+// console.table(candine)
+
+//array slice()
+// const person=candine.slice(1,5)
+// console.log(person)
+ 
+//array splice
+
+// let week=['sun','tue','thurs','sat'];
+// week.splice(1,0,'mon');
+// week.splice(3,0,'wed');
+// week.splice(5,0,"fri");
+// console.log(week);
+
+//array concat()
+
+// let books=['Angular','Reactjs'];
+// let update=books.concat(['VueJs','NextJs']);
+// console.log(update)
+
+//array sort
+
+// const num=[76,283,27,82,11,2,993,773,];
+// num.sort();
+// console.log(num)
+
+//const rank=[
+//    {Name:'joshva',marks:434},
+//    {Name:'sabari',marks:440},
+//    {Name:'aditya',marks:350}
+//];
+// let sum=rank.sort((ran1,ran2)=>ran2.marks - ran1.marks);
+// rank.sort((nam1,nam2)=>nam1.marks - nam2.marks);
+// console.log(rank);
+//console.log(sum)
+
+//array revise
+//  let num=[1,2,3,4,5,6,7,8,9,10];
+
+//  num.reverse()
+//  console.log(num);
+
+//array some finde ture or fales
+// let numof=[10,20,30,40,50,60,70,80,90];
+// let boxof=numof.some(value => value > 50);
+// console.log(boxof);
+
+//array every methods satifide the all array is true or fales
+
+// let num=[10,20,30,40,50,60,70,80,90];
+// let box=num.every(val=>val >= 10);
+// console.log(box);
+// let box1=num.every(val=>val > 30);
+// console.log(box1);
+
+//array find methods fist matched element
+// let numof=[10,20,30,40,50,60,70,80,90];
+// let boxof=numof.find(value => value > 50);
+// console.log(boxof);
+
+//array findindex methods to fist mathed index
+// let numof=[10,20,30,40,50,60,70,80,90];
+//  let boxof=numof.findIndex(value => value > 50);
+// console.log(boxof);
+
+//array includes case sentives 
+//    let numof=[10,'hello bro',60];
+//    console.log(numof.includes(60))
+//    console.log(numof.includes('hello bro')) 
+
+//array lastindexof() methods
+
+// let number=[20,30,40,50,10,80,40,30,90];
+// console.log(number.lastIndexOf(50));
+// let box=number.lastIndexOf(50);
+// console.log(box);
+
+//array at methods only passing the index value
+
+// let at=number.at(5)
+// console.log(at);
+
+// array join mathods 
+
+// let vechical=['car','bus','bike','cycle'];
+// console.log(vechical.join('/'))
+
+//array fill()
+// const arr =[1,2,3,4];
+// arr.fill(200,1,3)
+// arr.fill('js',0,1)
+// arr.fill('js')
+// console.log(arr)
+
+//array flat
+//default depth
+// const num=[1,[2,[3,[4,[5]],[6,[7,[8,[9,[10]]]]]]]];
+// console.log(num.flat(Infinity));
+
+//array flatmap
+
+//totaly two ways to use flatmap
+
+//first ways
+//const num=['car,bick','traine,bus','lorry,twoveilear'];
+// const box=num.map(val=>val.split(','));
+// console.log(box);
+// console.log(box.flat(1));
+
+//secound way
+//console.log(num.flatMap(val=>val.split(',')));
+
+//array array.from
+//creates a new array or iterable object 
+// we can pass a map function to call every element
+// console.log(Array.from('bike'));
+// console.log(Array.from([1,2,3]));
+// console.log(Array.from([1,2,3],val=>val *3))
+
+//array array.of
+//creates a new array or provide number or argument ofany types
+// console.log(Array.of(10,2,3,4,3,'hello',true,{x:5})) 
+
+//array array.isarray
+//verfinge the provide value is an array or not & retunes boolean value
+
+//console.log(Array.isArray([{c:77}]))
+
+//javascript data 
+// let num=new Date().getHours();
+// console.log(num)

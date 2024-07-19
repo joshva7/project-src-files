@@ -1,0 +1,139 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add eventlisner</title>
+</head>
+<body>
+    <form>
+        <input type="radio" name="num" value="one">1
+        <input type="radio" name="num" value="two">2
+        <input type="radio" name="num" value="three">3
+        <br><br>
+        <button id="btn" onclick="sum(event)">Click me</button>
+    </form>
+    <h3 id="output"></h3>
+</body>
+<script>
+   var btn=document.getElementById("btn");
+   var output=document.getElementById("output");
+
+   function sum(event){
+    event.preventDefault()
+    var rdbox=document.getElementsByName("num");
+    rdbox.forEach((num) =>{
+        if(num.checked){
+        output.innerText = `${"you clicked "+num.value}`;
+        }
+    });
+   }
+</script>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>summa</h1>
+    <p>hello</p>
+    <h1>hi duod</h1>
+    <p>hello dude</p>
+    <button onclick="calu()">counte</button>
+</body>
+<script>
+let text=document.getElementsByTagName("p");
+function calu(){
+    alert("the count is : "+text.length)
+}
+//bb.addEventListener("click",()=>{
+//alert("the count is : "+text.length)
+//});
+</script>
+
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box</title>
+</head>
+<style>
+    .blue{
+        background-color: black;
+        color: white;
+    }
+</style>
+<body>
+    <button class="blue" onclick="blue()">blue</button>
+    <button class="blue purple" onclick="purpuel()">purple</button>
+    <button class="blue green" onclick="green()">green</button>
+    <button class="blue rest" onclick="rest()">Rest</button>
+</body>
+<script>
+    let btn=document.getElementsByClassName("blue");
+    function blue(){
+     document.getElementsByClassName("blue")[0].style.backgroundColor = "blue";
+    }
+    function purpuel(){
+        document.getElementsByClassName("purple")[0].style.backgroundColor = "purple";
+    }
+    function green(){
+     document.getElementsByClassName("green")[0].style.backgroundColor = "green";
+    }
+    function rest(){
+        for(i=0;i<btn.length;i++){
+            btn[i].style.backgroundColor = "black";
+        }
+    }
+</script>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>darkmod</title>
+</head>
+<style>
+    body{
+        background-color: white;
+        color: black;
+    }
+    body.darkmode{
+        background-color: black;
+        color: white;
+    }
+</style>
+<body>
+    <h1>hello bro</h1>
+    <button id="btn">darkmode</button>
+</body>
+<script>
+    const btn = document.getElementById("btn");
+    btn.addEventListener('click',function(){
+        if(btn.innerText == 'darkmode'){
+            btn.innerText='lightmod';
+        }
+        else{
+            btn.innerText='darkmod';
+        } 
+        document.body.classList.toggle('darkmode');
+    });
+//   let btn=document.getElementById("btn");
+//     btn.addEventListener("click",()=>{
+//         let bmood=document.getElementById("body");
+//         bmood.style.backgroundColor ="black";
+//         btn.innerText="lightmood";
+//         btn.addEventListener("touchcancel",()=>{
+//             bmood.style.backgroundColor ="white"
+//             btn.innerText="barkmod";
+//         });
+//     });
+</script>
+</html>
