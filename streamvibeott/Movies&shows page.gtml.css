@@ -1,0 +1,250 @@
+.movies-banner{
+    margin-left: 6rem;
+    margin-right: 5rem;
+}
+.imgess-box{
+    width: 92%;
+    height: 80%;
+}
+.movies-banner{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    z-index: 0;
+    width: 80%;
+    height: 400px;
+
+}
+/* }    animation: slider 30s ease-in-out infinite alternate; */
+.movies-banner{
+    background-image: url(raayan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.continers{
+    position: absolute;
+    /* animation: slider 30s ease-in-out infinite alternate; */
+}
+/* .imgss.slider-img1{
+    background-image: url(raayan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movies-banner #slider-img2{
+    background-image: url(stangerthings.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+.movies-banner #slider-img3{
+    background-image: url(boys.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes slider{
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-200%);}
+    40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-300%);}
+    70%{transform: translateX(-300%);}  
+    80%{transform: translateX(-300%);}
+    90%{transform: translateX(0%);}
+    100%{transform: translateX(0%);}
+}
+.baner-tilte{
+    position: absolute;
+    top: 210px;
+    left: 250px;
+    width: 50%;
+    text-align: center;
+    
+}
+.baner-tilte p{
+    color:rgb(209, 203, 203);
+    font-weight: 200;
+}
+.icones{
+    transform: translateY(-20%);
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+.continers2{
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid rgb(94, 88, 88);
+    margin-top: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    /* width: 100%; */
+}
+.titles{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.movie-list{
+        transform: translateX(-4%);
+        margin-top: 6rem;
+}
+.continers3 h3{
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+.list1 {
+    border-radius: 5px;
+    background-color: rgb(26, 26, 26);
+    padding-left: 10px;
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+.list2{
+    border-radius: 5px;
+    background-color: rgb(26, 26, 26);
+    padding-left: 15px;
+    height: 259px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding-right: 5px; */
+    width: 13vw;
+    margin-left: 31px;
+    margin-top: 3rem;
+}
+.mv2{
+    display: flex;
+    padding-top: 10px;
+    /* padding-top: 20px;*/
+    justify-content: space-between;
+    align-items: center;
+}
+.img-6{
+    height: 200px;
+    width: 150px;
+    background-image: url(johnwike.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-7{
+    height: 200px;
+    width: 150px;
+    background-image: url(birdbox.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.list3{
+    border-radius: 5px;
+    background-color: rgb(26, 26, 26);
+    padding-left: 15px;
+    height: 259px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding-right: 5px; */
+    margin-top: 144px;
+    width: 13vw;
+    margin-left: 17px;
+    margin-right: 18px;
+}
+.img-8{
+    height: 200px;
+    width: 242px;
+    background-position: center;
+    background-image: url(sqitegame.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-9{
+    height: 200px;
+    width: 150px;
+    background-image: url(onepice.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-10{
+    height: 200px;
+    width: 150px;
+    background-image: url(stangerthings.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.list4{
+border-radius: 5px;
+background-color: rgb(26, 26, 26);
+padding-left: 25px;
+height: 259px;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: 144px;
+width: 21vw;
+}
+.mv3 {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .tranding-sw{
+    display: flex;
+    justify-content: space-between;
+} */
+.tranding-sw{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+}
+.listes{
+    background-color: rgb(26, 26, 26);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.img-tr{
+    background-image: url(aranmanai.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: 150px;
+}
+.img-tr-1{
+    background-image: url(goat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: 150px;
+}
+.img-tr-2{
+    background-image: url(viduthalai.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: 150px;
+}.img-tr-3{
+    background-image: url(kanguva.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: 150px;
+}
+.img-tr-4{
+    background-image: url(thuglife.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: 150px;
+}

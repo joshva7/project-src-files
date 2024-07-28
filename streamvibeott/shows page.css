@@ -1,0 +1,279 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.continer1{
+    /* background-image: url(action.png); */
+    background-image: url(action.png);
+    height: 80vh;
+    /* width: 100vw; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  /* overflow: hidden; */
+}
+.title-box-barre{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    z-index: 1;
+    text-align: center;
+}
+.title-box-barre h3{
+    font-size: 30px;
+}
+.title-box-barre p{
+    width: 550px;
+}
+.continer-barrae{
+    width: 100%;
+}
+.icones{
+    transform: translateY(-35px);
+    margin: 0%;
+}
+.description{
+    background-color: rgb(26, 26, 26);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 60%;
+    border-radius: 5px;
+    border: 2px solid rgb(26, 26, 26);;
+    margin-left: 20px;
+    margin-top: 5rem;
+}
+.caste{
+    background-color: rgb(26, 26, 26);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 60%;
+    border-radius: 5px;
+    border: 2px solid rgb(26, 26, 26);;
+    margin-left: 20px;
+    margin-top: 1rem;
+}
+.cast-contenter{
+    display: inline-flex;
+    gap: 15px;
+}
+.des-img{
+    background-image:url(millieboby.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+}
+.des-img1{
+    background-image:url(robael.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+}
+.des-img2{
+    background-image:url(nick\ robinson.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+}.des-img3{
+    background-image:url(shohreh.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+}
+.des-img4{
+    background-image:url(angel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+}
+.des-img5{
+    background-image:url(bo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+}
+.des-img6{
+    background-image:url(tas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+}
+.rewving{
+    /* display: flex;
+    justify-content: space-between; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(26, 26, 26);
+    margin-top: 10px;
+    max-width: 60.5%;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+.re-box{
+    display: flex;
+    justify-content: space-between;
+}
+.re-btn{
+    margin-top: 0%;
+    background-color: black;
+}
+.rev-con{
+    display: flex;
+    gap: 13px;
+}
+.revies-content{
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: black;
+    border-radius: 5px;
+    max-width: 50%;
+    margin-bottom: 3rem;
+}
+.re-p{
+    font-weight: 200;
+    color: gray;
+    text-align: start;
+    margin-top: 2px;
+}
+.release{
+    position: relative;
+    left: 62%;
+    transform: translateY(-91%);
+    background-color: rgb(26, 26, 26);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 12px;
+    border-radius: 5px;
+    margin-left: 23px;
+    /* max-height: 40vh; */
+    max-width: 30vw;
+}
+.ones{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: black;
+    border-radius: 4px;
+}
+.rel-box1{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.rel-box{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.fa-solid,.fas-star {
+    font-weight: 900;
+    color: red;
+}
+.stares-1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.rat-2{
+    margin-top: 8px;
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.released-year{
+    display: flex;
+    align-items: center; 
+    gap: 6px;
+}
+.ones-1 p{
+    padding-bottom: 4px;
+}
+.ones-1{
+    margin-right: 4px;
+    flex-basis: 50%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: black;
+    border-radius: 4px;
+}
+.rel-box-2{
+    flex-basis: 17%;
+    background-color: black;
+    border-radius: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 8px;
+}
+.geneares-1{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.imges1-3{
+    background-image: url(director.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+}
+.dire-img{
+    background-color:black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+.dire-img{
+    display: flex;
+}
+.imges1-4{
+    background-image: url(musicdirector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+}
+.direct{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* .footer{
+        margin-top: -15rem;
+        transform: translateY(-192%);
+}
+.tooter-banner {
+    margin-top: 0rem;
+    transform: translateY(-319%);
+} */

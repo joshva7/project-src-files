@@ -2,6 +2,9 @@
     padding:0%;
     margin: 0%;
 }
+html{
+    scroll-behavior: smooth;
+}
 .title-box {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;

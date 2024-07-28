@@ -749,3 +749,42 @@ console.table(dupwords);
 //javascript data 
 // let num=new Date().getHours();
 // console.log(num)
+
+// multiple ways to clone an object
+//fist ways sperad
+
+// let obj1={a:10,b:20,c:30};
+// let obj2={d:40,e:50,f:60};
+// let obj3={...obj1,...obj2};
+// console.log(obj3)
+
+//secound ways 
+
+// let obj4=Object.assign({},obj1,obj2);
+// console.log(obj4)
+  
+//multiple ways to clone an array
+
+//let arr=[1,2,3,45,5,6];
+//let arr1=[...arr]
+//array from
+//let arr1=Array.from(arr)
+//let arr1=arr.concat()
+//let arr1=arr.slice(",");
+//console.log(arr1)
+//sperad operater
+
+//const user=['ram','joos','bro'];
+//user.push('james');
+//user.unshift('vjshiit')
+//console.log(user)
+
+//templater methods
+// let num="$95"
+// let num1=5
+// let letter=`"you have${num1}items in your cart.
+// yor bill amount is${num}"`
+// console.log(letter);
+
+//  let arr=[[1,2,3],[4,5,6],[7,8,9]];
+//  console.log( arr.flatMap(val=>val.slice(",")));
