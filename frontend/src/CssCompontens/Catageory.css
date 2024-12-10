@@ -1,0 +1,89 @@
+.Ti-box{
+    border-bottom: 1px solid gray;
+    padding-bottom: 5rem;
+}
+.list-card-box{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.list-card{
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 180px;
+  text-align: center;
+}
+.list-card:hover{
+    background-color: rgb(219,68,68);
+    color: antiquewhite;
+}
+.font-awesom{
+    font-size: 2rem;
+}
+.list-para{
+    font-weight: 600;
+}
+.My-card{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* gap: 10%; */
+}
+.tx-bx{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap:10px;
+}
+.old-bx{
+    text-decoration: line-through;
+    color: gray;
+}
+.imgespop-box{
+    position: relative;
+    z-index: -1;
+}
+.earphot-dis{
+    color: rgb(12, 161, 72);
+    position: absolute;
+    font-family: "Roboto", serif;
+    z-index: 999;
+    top: 130px;
+    left: 70px;
+    text-align: start;
+    font-weight: 600;
+}
+.ep-h{
+    color: ghostwhite;
+}
+.tites-box{
+    margin-bottom: 1.5rem;
+}
+.Cat-Time{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Ct-sp{
+    font-size: 0.9rem;
+    color: black; 
+    margin-top: 12px;
+    margin-left: 18px;
+}
+.Ct-card{
+    display: block;
+    height: 57px;
+    width: 56px;
+    background-color: aliceblue;
+    border-radius: 50%; 
+}
+.Ct-p{
+    display: inline-block;
+    color: black;
+    font-size: 0.8rem;
+    align-items: center; 
+    margin-left: 10px;
+}
+.ep-btn{
+    margin-top: 5rem;
+}

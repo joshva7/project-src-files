@@ -1,0 +1,28 @@
+.probox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    width: 100%;
+    margin-top: 2rem;
+}
+.prodatebox{
+    font-family: "Roboto", serif;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 800;
+    font-style: normal;
+}
+.proicon{
+    font-family: "Roboto", serif;
+    color: black;
+    font-size: 1.9rem;
+    font-style: normal;
+}
+.prosubpara{
+    font-size: 12px;
+}
+.react-multi-carousel-list {
+    margin-top: 1rem;
+}

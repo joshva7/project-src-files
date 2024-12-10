@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.Pop-Head{
+    display: flex;
+   
+    gap: 3rem;
+}
+.Ho-side-title{
+    padding: 3rem;
+    border-right: 2px solid rgb(235, 223, 223);
+}
+.HO-ul{
+    font-weight: 500;
+    text-align: start;
+    list-style: none;
+}
+.HO-ul li{
+    margin-bottom: 10px;
+}
+
+/* Show Cards Image */
+.Card-box{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    max-width: 790px;
+    width: 100vw;
+}
+.carousel-control-next-icon{
+    display: none;
+     width: 0; 
+     height: 0;
+}
+.carousel-control-prev {
+    display: none;
+}

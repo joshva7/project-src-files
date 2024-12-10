@@ -1,0 +1,21 @@
+.card-title{
+    font-size: 0.9rem;
+    color: black;
+
+}
+.card-text{
+    color:rgb(228, 33, 33);
+    font-weight: 500;
+}
+.Cat_add{
+    background-color: #000;
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    padding: 0.3rem;
+}
+.Cat_remove{
+    background-color:red;
+}

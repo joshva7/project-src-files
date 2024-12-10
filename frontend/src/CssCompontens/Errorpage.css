@@ -1,0 +1,19 @@
+.Error-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5rem;
+    color: black;
+}
+.Err-head{
+    font-size: 6rem;
+}
+.Err-btn{
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 10px 1.8rem;
+    background-color: rgb(216, 26, 26);
+    color: whitesmoke;
+}

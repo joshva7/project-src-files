@@ -1,0 +1,81 @@
+.Cont-link{
+    display: flex;
+    gap: 5px;
+    margin-left: 7rem;
+}
+
+.Cont-link-child-1{
+    color: gray;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.Cont-link-child-2{
+    color: black;
+    text-decoration: none;
+}
+.Contract-box{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 6rem;
+    gap: 20px;
+}
+.Cont-inside-box{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.Cont-font-icon{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 0.5rem;
+}
+.Cont-inside-cont{
+    border-bottom: 1px solid gray;
+    margin-bottom: 2.3rem;
+}
+
+.Cont_inside_box_2{
+    border-radius: 5px;
+    box-shadow: rgba(58, 58, 109, 0.2) 0px 7px 29px 0px;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+.Cont_p{
+    margin-bottom: 2rem;
+}
+.Cont_icon{
+    font-size: 1.5rem;
+    background-color: rgb(216, 26, 26);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.Cont_inside_box2_Cont{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+.Cont_int{
+    padding: 0.5rem;
+    background-color: rgb(241, 231, 231);
+    border-style: none;
+    border-radius: 5px;
+}
+.Cont_texta{
+    background-color: rgb(241, 231, 231);
+    border-style: none;
+    border-radius: 5px;
+    resize: none;
+    padding: 1rem;
+}
+.Cont_Btn{
+    background-color: rgb(216, 26, 26);
+    padding: 0.5rem;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 65%;
+}

@@ -1,0 +1,71 @@
+.Cart_tb {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* padding: 5rem; */
+}
+
+.Cart_head {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.Cart_head tr th{
+    padding-left: 15rem;
+}
+.Ct_body tr td{
+    padding-left: 15.8rem;
+}
+.Ct_process{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 5px;
+    margin: 5rem 0rem;
+}
+.Ct_coupen{
+    display: flex;
+    gap: 15px}
+.Ct_input{
+    padding: 0.8rem;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid black;
+}
+.Ct_btn{
+    padding: 0.8rem;
+    border-radius: 5px;
+    border-style:none ;
+    background-color:rgb(230, 38, 38);
+    color: white;
+}
+.Ct_payament_det{
+    padding: 10px;
+    border: 1px solid black;
+    width: 45%;
+    border-radius: 5px;
+}
+.Ct_payment_inside_box{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    justify-content: space-between;
+}
+.Ct_payment_inside_box_totle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+.Ct_payment_inside_btn{
+    margin-left: 25%;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color: whitesmoke;
+    background-color:rgb(230, 38, 38);
+}

@@ -1,0 +1,98 @@
+.Acc_Title{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto", serif;
+}
+.Ac_title_color{
+    color: red;
+}
+.Acct_pg_box{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    gap: 8rem;
+    margin-top: 4rem;
+    color: black;
+}
+.Acct_liste{
+    list-style: none;
+    color: gray;
+}
+
+.Acct_liste:hover{
+    color: red;
+}
+.Acc_detials_div{
+    border-radius: 5px;
+    box-shadow: rgba(58, 58, 109, 0.2) 0px 7px 29px 0px;
+    padding: 4rem;
+    width: 60%;
+    margin-bottom: 10rem;
+} 
+.Acc_Name{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.Acc_Password{
+    display: flex;
+        flex-direction: column;
+}
+.Acc_name_label{
+    display: flex;
+   justify-content: space-around;
+   gap: 31px
+}
+.Acc_lable_box{
+    display: flex;
+    gap: 13rem
+}
+.Acc_input_box{
+    width: 90%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(241, 231, 231);
+}
+.Acc_input_box_email{
+        width: 50%;
+        padding: 0.5rem;
+        border-radius: 5px;
+        border-style: none;
+        background-color: rgb(241, 231, 231);
+}
+.Acc_lable_emal_box{
+    display: flex;
+    gap: 15.4rem;
+}
+.Acc_pass_box{
+    background-color: rgb(241, 231, 231);
+    border-radius: 5px;
+    border-style: none;
+    padding: 1rem;
+    margin-bottom: 1rem;   
+}
+.Acc_btn_box{
+    display: flex;
+    gap: 10px;
+    margin-left: 68%;
+}
+.Acc_cancle{
+    border-style: none;
+    background-color: transparent;
+}
+.Acc_btn_save{
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: rgb(216, 26, 26);
+    border-style: none;
+}
+.Acc_link{
+    color: gray;
+    text-decoration: none;
+    margin-left: 10px;
+}

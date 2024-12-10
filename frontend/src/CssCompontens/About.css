@@ -1,0 +1,64 @@
+.About_box{
+    display: flex;
+    margin-top: 5rem;
+    color: black;
+}
+.Abou_side{
+    margin: 6rem;
+    width: 50%;
+}
+.Abou_side_head{
+    margin-bottom: 2rem;
+}
+.Abou_cont_box{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.Cont_box{
+    /* padding: ; */
+    text-align: center;
+    margin-bottom: 9rem;
+}
+.Font_span{
+    font-size: 1.8rem;
+}
+.At_title{
+    font-size: 1.9rem;
+}
+.card-title_1{
+    font-size: 1.9rem;
+    color: black;
+    font-weight: 700;
+}
+.At_card{
+ color: rgb(31, 28, 28);
+ width:100%; 
+ font-size: small;
+ font-weight: 600;
+}
+.Cont_div_box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Cont_div_box:hover{
+    background-color:rgb(219, 68, 68);
+}
+.react-multi-carousel-item{
+    width: 50%;
+}
+.Employe_box{
+     margin-left: 10rem; 
+    width: 70%;
+}
+.Emp_icon_box{
+display: flex;
+gap: 10px;  
+}
+.Emp_detilas_box{
+    padding-left: 1.5rem;
+}
+.Abot_info_box{
+    margin: 8rem;
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.SaleTop {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    justify-content: center;
+}
+
+.sale-link {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+/* Header-Title */
+
+.Header-Title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(160, 158, 158);
+}
+
+.HT-ul {
+    display: flex;
+    font-weight: 500;
+    gap: 48px;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+#dropdown-basic-button {
+    background-color: black;
+    border-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown {
+    top: -7px;
+}
+
+.HT-INT {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: gainsboro;
+    overflow: hidden;
+    border-style: none;
+}
+
+.HT-TITLE {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.HT-btn {
+    all: unset;
+}
+
+.Head-li {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.Head-li:nth-child(1):active {
+    text-decoration: underline;
+}
+
+.Head-li:hover {
+    text-decoration: underline;
+}
+
+.Account_side_pop{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 9999;
+        background: rgb(0 0 0 / 50%);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(2.3px);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        width: 23%;
+        left: 60rem;
+        padding-top: 1rem;
+        color: whitesmoke;
+}
+
+.Account_side_list{
+    list-style: none;
+}
+.Account_font{
+    margin-right: 24px;
+    font-size: 1.5rem;
+}
+.pop_side_icone_1{
+    color: white;
+    text-decoration: none;
+}
+.carousel-control-next {
+ display: none;
+}
